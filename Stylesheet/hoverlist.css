@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: maroon;
+    background-color: lightblue;
+}
+
+ul ul {
+    display: none;
+}
+
+li:hover > ul {
+    color: black;
+    display: block;
+}
