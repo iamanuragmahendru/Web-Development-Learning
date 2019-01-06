@@ -1,0 +1,12 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin-left : 50px;
+    /* transform: translate(100px, -25px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(100px, -25px); */
+    /* transform: rotateX(60deg); */
+    transform: scaleX(1.5);
+    transform: skew(45deg);
+}

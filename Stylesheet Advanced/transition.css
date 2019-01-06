@@ -1,0 +1,55 @@
+div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+/* #div1 {
+    height: 100px;
+    width: 100px;
+    background-color: black
+} */
+
+/* #div1:hover {
+    background-color: blue;
+    transform: translate(50px,50px);
+} */
+
+@keyframes slide {
+    /* from {
+        margin-left: 100px;
+    } */
+    to {
+        margin-left: 200px;
+    }
+}
+
+@keyframes newslide {
+    0% {
+        background-color: chocolate;
+    }
+    50% {
+        background-color: yellowgreen;
+        margin-left: 100px;
+        height: 50px;
+    }
+    100% {
+        background-color: cyan;
+        height: 200px;
+        margin-left: 200px;
+    }
+}
+
+#div1:hover + div {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+div:hover + div {
+    animation-name: newslide;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+}
