@@ -5,8 +5,8 @@ div {
     border: solid black 2px;
 }
 
-#div3 {
-    /* position: static; */
+/*#div3 {
+    position: static; */
     /* position: fixed; */
     /* position: relative;
     top: 20px;
@@ -15,10 +15,10 @@ div {
     top: 5px; */
     /* position: absolute;
     top: 50px;
-    left: 50px; */
-}
+    left: 50px;
+} */
 
-#div2 {
+/* #div2 {
     /* position: fixed;
     top: 10px; */
-}
+/* }*/
